@@ -13,7 +13,7 @@ public class DemoController {
 
     @GetMapping("/")
     public String getHello() {
-        return "Hello world!!!";
+        return "Hello world!";
     }
 
     @GetMapping("/sum")
