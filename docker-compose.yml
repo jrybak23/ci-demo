@@ -1,0 +1,9 @@
+version: '3'
+services:
+  ci-demo:
+    image: ci-demo-image
+    container_name: ci-demo
+    build:
+      context: .
+    ports:
+    - 8080:8080
